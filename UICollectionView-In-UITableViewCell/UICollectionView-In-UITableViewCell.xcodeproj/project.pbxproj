@@ -17,6 +17,8 @@
 		DFF0F3C8219FC35F00E281C9 /* ShopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF0F3C6219FC35F00E281C9 /* ShopCell.swift */; };
 		DFF0F3C9219FC35F00E281C9 /* ShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF0F3C7219FC35F00E281C9 /* ShopCell.xib */; };
 		DFF0F3CC219FC8A200E281C9 /* AreaCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF0F3CB219FC8A200E281C9 /* AreaCollectionView.swift */; };
+		DFF0F3CF219FC98A00E281C9 /* AreaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF0F3CD219FC98A00E281C9 /* AreaTableViewCell.swift */; };
+		DFF0F3D0219FC98A00E281C9 /* AreaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF0F3CE219FC98A00E281C9 /* AreaTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		DFF0F3C6219FC35F00E281C9 /* ShopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCell.swift; sourceTree = "<group>"; };
 		DFF0F3C7219FC35F00E281C9 /* ShopCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopCell.xib; sourceTree = "<group>"; };
 		DFF0F3CB219FC8A200E281C9 /* AreaCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCollectionView.swift; sourceTree = "<group>"; };
+		DFF0F3CD219FC98A00E281C9 /* AreaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaTableViewCell.swift; sourceTree = "<group>"; };
+		DFF0F3CE219FC98A00E281C9 /* AreaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,8 @@
 				DFF0F3C6219FC35F00E281C9 /* ShopCell.swift */,
 				DFF0F3C7219FC35F00E281C9 /* ShopCell.xib */,
 				DFF0F3CB219FC8A200E281C9 /* AreaCollectionView.swift */,
+				DFF0F3CD219FC98A00E281C9 /* AreaTableViewCell.swift */,
+				DFF0F3CE219FC98A00E281C9 /* AreaTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -249,6 +255,7 @@
 				DFF0F3A3219FC2F200E281C9 /* LaunchScreen.storyboard in Resources */,
 				DFF0F3A0219FC2F200E281C9 /* Assets.xcassets in Resources */,
 				DFF0F39E219FC2F000E281C9 /* Main.storyboard in Resources */,
+				DFF0F3D0219FC98A00E281C9 /* AreaTableViewCell.xib in Resources */,
 				DFF0F3C9219FC35F00E281C9 /* ShopCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFF0F39B219FC2F000E281C9 /* ViewController.swift in Sources */,
+				DFF0F3CF219FC98A00E281C9 /* AreaTableViewCell.swift in Sources */,
 				DFF0F3C8219FC35F00E281C9 /* ShopCell.swift in Sources */,
 				DFF0F399219FC2F000E281C9 /* AppDelegate.swift in Sources */,
 				DFF0F3CC219FC8A200E281C9 /* AreaCollectionView.swift in Sources */,
