@@ -9,7 +9,8 @@
 import UIKit
 
 class AreaTableViewCell: UITableViewCell {
-
+    @IBOutlet weak var shopCollectionView: UICollectionView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
