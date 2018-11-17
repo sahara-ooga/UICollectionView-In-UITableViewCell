@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ShopCell" customModule="UICollectionView_In_UITableViewCell" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="334" height="363"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="334" height="363"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jIr-Ds-5ct">
+                        <rect key="frame" x="0.0" y="0.0" width="334" height="332.5"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shop Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fn5-KW-32M">
+                        <rect key="frame" x="0.0" y="342.5" width="334" height="20.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="jIr-Ds-5ct" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="3w5-m6-gfK"/>
+                <constraint firstItem="Fn5-KW-32M" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="C7o-Wr-He6"/>
+                <constraint firstItem="jIr-Ds-5ct" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="EIQ-K6-Xj4"/>
+                <constraint firstAttribute="trailing" secondItem="jIr-Ds-5ct" secondAttribute="trailing" id="FRi-cv-tlX"/>
+                <constraint firstItem="jIr-Ds-5ct" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="PBb-1z-QAB"/>
+                <constraint firstAttribute="trailing" secondItem="Fn5-KW-32M" secondAttribute="trailing" id="RSJ-En-x8A"/>
+                <constraint firstAttribute="bottom" secondItem="Fn5-KW-32M" secondAttribute="bottom" id="Zs5-r8-HSc"/>
+                <constraint firstItem="Fn5-KW-32M" firstAttribute="top" secondItem="jIr-Ds-5ct" secondAttribute="bottom" constant="10" id="gaz-UI-91C"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="334" height="363"/>
+            <connections>
+                <outlet property="shopImage" destination="jIr-Ds-5ct" id="4FA-Jv-5CY"/>
+                <outlet property="shopLabel" destination="Fn5-KW-32M" id="owY-6W-8Yz"/>
+            </connections>
+            <point key="canvasLocation" x="364.80000000000001" y="294.60269865067471"/>
+        </collectionViewCell>
+    </objects>
+</document>
