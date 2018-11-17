@@ -38,3 +38,7 @@ Only Japanese, sorry.
 ### Xcode
 
 [Xcode 10 keyboard shortcuts cheat sheet – craiggrummitt – Medium](https://medium.com/@craiggrummitt/xcode-10-keyboard-shortcuts-cheat-sheet-d141eb50f33e)
+
+### Git
+
+[gitのローカルのブランチ名を変更したい - Qiita](https://qiita.com/suin/items/96c110b218d919168d64)
