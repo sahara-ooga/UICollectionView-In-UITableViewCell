@@ -15,6 +15,8 @@ This app puts UICollectionView in UITableViewCell. You can scroll store info in 
 
 ## Reference
 
+[UIの問題（２） · stv-ekushida/iOSTraining Wiki](https://github.com/stv-ekushida/iOSTraining/wiki/UI%E3%81%AE%E5%95%8F%E9%A1%8C%EF%BC%88%EF%BC%92%EF%BC%89)
+
 [Putting a UICollectionView in a UITableViewCell in Swift - Ash Furrow](https://ashfurrow.com/blog/putting-a-uicollectionview-in-a-uitableviewcell-in-swift/)
 
 [UITableViewCellにCollectionViewを入れる - Qiita](https://qiita.com/akspect/items/f996dd09cb05051e09ca)
