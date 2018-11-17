@@ -34,3 +34,7 @@ Only Japanese, sorry.
 [PlantUML Cheat Sheet - Qiita](https://qiita.com/ogomr/items/0b5c4de7f38fd1482a48)
 
 [クラス図の構文と機能](http://plantuml.com/class-diagram)
+
+### Xcode
+
+[Xcode 10 keyboard shortcuts cheat sheet – craiggrummitt – Medium](https://medium.com/@craiggrummitt/xcode-10-keyboard-shortcuts-cheat-sheet-d141eb50f33e)
