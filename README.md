@@ -31,5 +31,6 @@ Only Japanese, sorry.
 
 #### Plant Uml
 
-- [PlantUML Cheat Sheet - Qiita](https://qiita.com/ogomr/items/0b5c4de7f38fd1482a48)
-- [クラス図の構文と機能](http://plantuml.com/class-diagram)
+[PlantUML Cheat Sheet - Qiita](https://qiita.com/ogomr/items/0b5c4de7f38fd1482a48)
+
+[クラス図の構文と機能](http://plantuml.com/class-diagram)
