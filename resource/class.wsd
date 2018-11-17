@@ -1,0 +1,29 @@
+@startuml class
+/'
+class Foo1 << general >> {
+  You can use
+  several lines
+  ..
+  as you want
+  and group
+  ==
+  things together.
+  __
+  You can have as many groups
+  as you want
+  --
+  End of class
+}
+'/
+
+class HomeViewController << UIViewController >>
+class AreaTableView << UITableView >>
+class AreaTableViewCell << UITableViewCell >>
+class AreaCollectionView << UICollectionView >>
+class ShopCell << UICollectionViewCell >>
+
+HomeViewController *--  AreaTableView
+AreaTableView *--  AreaTableViewCell
+AreaTableViewCell *-- AreaCollectionView
+AreaCollectionView *-- ShopCell
+@enduml
