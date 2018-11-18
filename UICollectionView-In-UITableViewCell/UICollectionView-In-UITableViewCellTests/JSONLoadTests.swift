@@ -21,8 +21,8 @@ class JSONLoadTests: XCTestCase {
 
     func testLoadAndDecode() throws {
         let jsonData = JSONLoaderImpl.jsonData(from: "rest01")
-        let aaa = try ShopData(data: jsonData!)
-        print(aaa)
+        let decodedShopData = try ShopData(data: jsonData!)
+        print(decodedShopData)
     }
 
 }
