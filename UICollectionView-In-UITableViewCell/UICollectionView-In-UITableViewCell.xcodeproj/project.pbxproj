@@ -120,6 +120,14 @@
 			path = protocol;
 			sourceTree = "<group>";
 		};
+		DFEF2E1321A1740100E7B977 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DFF0F39A219FC2F000E281C9 /* HomeViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
 		DFF0F38C219FC2F000E281C9 = {
 			isa = PBXGroup;
 			children = (
@@ -143,12 +151,12 @@
 		DFF0F397219FC2F000E281C9 /* UICollectionView-In-UITableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				DFEF2E1321A1740100E7B977 /* View Controller */,
 				DFDC071021A165B20047ED3C /* protocol */,
 				DFDC0709219FFDC90047ED3C /* function */,
 				DFDC0708219FF7610047ED3C /* extension */,
 				DFF0F3CA219FC36900E281C9 /* View */,
 				DFF0F398219FC2F000E281C9 /* AppDelegate.swift */,
-				DFF0F39A219FC2F000E281C9 /* HomeViewController.swift */,
 				DFF0F39C219FC2F000E281C9 /* Main.storyboard */,
 				DFF0F39F219FC2F200E281C9 /* Assets.xcassets */,
 				DFF0F3A1219FC2F200E281C9 /* LaunchScreen.storyboard */,
