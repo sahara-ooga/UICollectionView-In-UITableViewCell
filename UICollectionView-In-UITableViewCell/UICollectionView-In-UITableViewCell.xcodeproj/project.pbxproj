@@ -12,6 +12,7 @@
 		DFDC071221A165E30047ED3C /* UICollectionViewRegisterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDC071121A165E30047ED3C /* UICollectionViewRegisterable.swift */; };
 		DFDC071421A1677C0047ED3C /* UITableViewCellRegisterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDC071321A1677C0047ED3C /* UITableViewCellRegisterable.swift */; };
 		DFDC071621A1689B0047ED3C /* UITableView+RegisterNilb.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDC071521A1689B0047ED3C /* UITableView+RegisterNilb.swift */; };
+		DFEF2E1621A175EC00E7B977 /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEF2E1521A175EC00E7B977 /* JSONLoader.swift */; };
 		DFF0F399219FC2F000E281C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF0F398219FC2F000E281C9 /* AppDelegate.swift */; };
 		DFF0F39B219FC2F000E281C9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF0F39A219FC2F000E281C9 /* HomeViewController.swift */; };
 		DFF0F39E219FC2F000E281C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF0F39C219FC2F000E281C9 /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 		DFDC071121A165E30047ED3C /* UICollectionViewRegisterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewRegisterable.swift; sourceTree = "<group>"; };
 		DFDC071321A1677C0047ED3C /* UITableViewCellRegisterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellRegisterable.swift; sourceTree = "<group>"; };
 		DFDC071521A1689B0047ED3C /* UITableView+RegisterNilb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+RegisterNilb.swift"; sourceTree = "<group>"; };
+		DFEF2E1521A175EC00E7B977 /* JSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
 		DFF0F395219FC2F000E281C9 /* UICollectionView-In-UITableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UICollectionView-In-UITableViewCell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF0F398219FC2F000E281C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFF0F39A219FC2F000E281C9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +130,14 @@
 			path = "View Controller";
 			sourceTree = "<group>";
 		};
+		DFEF2E1421A175C900E7B977 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DFEF2E1521A175EC00E7B977 /* JSONLoader.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		DFF0F38C219FC2F000E281C9 = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +161,7 @@
 		DFF0F397219FC2F000E281C9 /* UICollectionView-In-UITableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				DFEF2E1421A175C900E7B977 /* Util */,
 				DFEF2E1321A1740100E7B977 /* View Controller */,
 				DFDC071021A165B20047ED3C /* protocol */,
 				DFDC0709219FFDC90047ED3C /* function */,
@@ -329,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFDC070F219FFF330047ED3C /* UICollectionView+RegisterNib.swift in Sources */,
+				DFEF2E1621A175EC00E7B977 /* JSONLoader.swift in Sources */,
 				DFDC071621A1689B0047ED3C /* UITableView+RegisterNilb.swift in Sources */,
 				DFF0F39B219FC2F000E281C9 /* HomeViewController.swift in Sources */,
 				DFDC070B219FFDDC0047ED3C /* TypeName.swift in Sources */,

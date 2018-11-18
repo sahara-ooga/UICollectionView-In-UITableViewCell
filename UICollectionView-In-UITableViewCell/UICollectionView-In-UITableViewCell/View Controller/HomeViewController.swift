@@ -18,8 +18,6 @@ class HomeViewController: UIViewController {
         
         self.configureTableView()
     }
-
-
 }
 extension HomeViewController {
     /// initial set up for table view
