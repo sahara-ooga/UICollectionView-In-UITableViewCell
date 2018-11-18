@@ -14,6 +14,8 @@
 		DFDC071621A1689B0047ED3C /* UITableView+RegisterNilb.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDC071521A1689B0047ED3C /* UITableView+RegisterNilb.swift */; };
 		DFEF2E1621A175EC00E7B977 /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEF2E1521A175EC00E7B977 /* JSONLoader.swift */; };
 		DFEF2E1B21A178DB00E7B977 /* rest01.json in Resources */ = {isa = PBXBuildFile; fileRef = DFEF2E1A21A178DB00E7B977 /* rest01.json */; };
+		DFEF2E1E21A17B2F00E7B977 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEF2E1D21A17B2F00E7B977 /* Shop.swift */; };
+		DFEF2E2021A17F7B00E7B977 /* JSONLoadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEF2E1F21A17F7B00E7B977 /* JSONLoadTests.swift */; };
 		DFF0F399219FC2F000E281C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF0F398219FC2F000E281C9 /* AppDelegate.swift */; };
 		DFF0F39B219FC2F000E281C9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF0F39A219FC2F000E281C9 /* HomeViewController.swift */; };
 		DFF0F39E219FC2F000E281C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF0F39C219FC2F000E281C9 /* Main.storyboard */; };
@@ -53,6 +55,8 @@
 		DFDC071521A1689B0047ED3C /* UITableView+RegisterNilb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+RegisterNilb.swift"; sourceTree = "<group>"; };
 		DFEF2E1521A175EC00E7B977 /* JSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
 		DFEF2E1A21A178DB00E7B977 /* rest01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rest01.json; sourceTree = "<group>"; };
+		DFEF2E1D21A17B2F00E7B977 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		DFEF2E1F21A17F7B00E7B977 /* JSONLoadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoadTests.swift; sourceTree = "<group>"; };
 		DFF0F395219FC2F000E281C9 /* UICollectionView-In-UITableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UICollectionView-In-UITableViewCell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF0F398219FC2F000E281C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFF0F39A219FC2F000E281C9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +155,14 @@
 			name = Resource;
 			sourceTree = "<group>";
 		};
+		DFEF2E1C21A17B0600E7B977 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFEF2E1D21A17B2F00E7B977 /* Shop.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		DFF0F38C219FC2F000E281C9 = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +186,7 @@
 		DFF0F397219FC2F000E281C9 /* UICollectionView-In-UITableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				DFEF2E1C21A17B0600E7B977 /* Model */,
 				DFEF2E1921A178B300E7B977 /* Resource */,
 				DFEF2E1421A175C900E7B977 /* Util */,
 				DFEF2E1321A1740100E7B977 /* View Controller */,
@@ -191,6 +204,7 @@
 			children = (
 				DFF0F3AD219FC2F200E281C9 /* UICollectionView_In_UITableViewCellTests.swift */,
 				DFF0F3AF219FC2F200E281C9 /* Info.plist */,
+				DFEF2E1F21A17F7B00E7B977 /* JSONLoadTests.swift */,
 			);
 			path = "UICollectionView-In-UITableViewCellTests";
 			sourceTree = "<group>";
@@ -354,6 +368,7 @@
 				DFDC070F219FFF330047ED3C /* UICollectionView+RegisterNib.swift in Sources */,
 				DFEF2E1621A175EC00E7B977 /* JSONLoader.swift in Sources */,
 				DFDC071621A1689B0047ED3C /* UITableView+RegisterNilb.swift in Sources */,
+				DFEF2E1E21A17B2F00E7B977 /* Shop.swift in Sources */,
 				DFF0F39B219FC2F000E281C9 /* HomeViewController.swift in Sources */,
 				DFDC070B219FFDDC0047ED3C /* TypeName.swift in Sources */,
 				DFF0F3CF219FC98A00E281C9 /* AreaTableViewCell.swift in Sources */,
@@ -370,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFF0F3AE219FC2F200E281C9 /* UICollectionView_In_UITableViewCellTests.swift in Sources */,
+				DFEF2E2021A17F7B00E7B977 /* JSONLoadTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
