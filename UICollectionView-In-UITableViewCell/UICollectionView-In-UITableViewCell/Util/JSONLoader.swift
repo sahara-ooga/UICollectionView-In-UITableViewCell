@@ -10,21 +10,22 @@ import Foundation
 
 protocol JSONLoader { }
 extension JSONLoader {
-    static func jsonFromFile(_ filename: String) -> [String: AnyObject] {
+    static func jsonData(from filename: String) -> Data? {
         let jsonPath = Bundle(for: self as! AnyClass).path(forResource: filename, ofType: "json")
-        let jsonData = try? Data(contentsOf: URL(fileURLWithPath: jsonPath!))
+        return try? Data(contentsOf: URL(fileURLWithPath: jsonPath!))
+    }
+    static func jsonFromFile(_ filename: String) -> [String: AnyObject] {
+        let jsonData = Self.jsonData(from: filename)
         return try! JSONSerialization.jsonObject(with: jsonData!, options: []) as! [String: AnyObject]
     }
     static func jsonArrayFromFile(_ filename: String) -> [[String: AnyObject]] {
-        let jsonPath = Bundle(for: self as! AnyClass).path(forResource: filename, ofType: "json")
-        let jsonData = try? Data(contentsOf: URL(fileURLWithPath: jsonPath!))
+        let jsonData = Self.jsonData(from: filename)
         return try! JSONSerialization.jsonObject(with: jsonData!, options: []) as! [[String: AnyObject]]
     }
     static func decode<T: Decodable>(_ filename: String) throws -> T {
-        let jsonPath = Bundle(for: self as! AnyClass).path(forResource: filename, ofType: "json")
-        let jsonData = try Data(contentsOf: URL(fileURLWithPath: jsonPath!))
+        let jsonData = Self.jsonData(from: filename)
         let jsonDecoder = JSONDecoder()
-        return try jsonDecoder.decode(T.self, from: jsonData)
+        return try jsonDecoder.decode(T.self, from: jsonData!)
     }
 }
 struct JSONLoaderImpl: JSONLoader { }
