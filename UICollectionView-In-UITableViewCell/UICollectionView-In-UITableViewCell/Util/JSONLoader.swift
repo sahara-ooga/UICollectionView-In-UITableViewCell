@@ -11,7 +11,7 @@ import Foundation
 protocol JSONLoader { }
 extension JSONLoader {
     static func jsonData(from filename: String) -> Data? {
-        let jsonPath = Bundle(for: self as! AnyClass).path(forResource: filename, ofType: "json")
+        let jsonPath = Bundle.main.path(forResource: filename, ofType: "json")
         return try? Data(contentsOf: URL(fileURLWithPath: jsonPath!))
     }
     static func jsonFromFile(_ filename: String) -> [String: AnyObject] {
