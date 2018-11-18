@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DFDC070B219FFDDC0047ED3C /* TypeName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDC070A219FFDDC0047ED3C /* TypeName.swift */; };
+		DFDC070F219FFF330047ED3C /* UICollectionView+RegisterNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDC070E219FFF330047ED3C /* UICollectionView+RegisterNib.swift */; };
+		DFDC071221A165E30047ED3C /* UICollectionViewRegisterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDC071121A165E30047ED3C /* UICollectionViewRegisterable.swift */; };
+		DFDC071421A1677C0047ED3C /* UITableViewCellRegisterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDC071321A1677C0047ED3C /* UITableViewCellRegisterable.swift */; };
+		DFDC071621A1689B0047ED3C /* UITableView+RegisterNilb.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDC071521A1689B0047ED3C /* UITableView+RegisterNilb.swift */; };
 		DFF0F399219FC2F000E281C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF0F398219FC2F000E281C9 /* AppDelegate.swift */; };
-		DFF0F39B219FC2F000E281C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF0F39A219FC2F000E281C9 /* ViewController.swift */; };
+		DFF0F39B219FC2F000E281C9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF0F39A219FC2F000E281C9 /* HomeViewController.swift */; };
 		DFF0F39E219FC2F000E281C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF0F39C219FC2F000E281C9 /* Main.storyboard */; };
 		DFF0F3A0219FC2F200E281C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF0F39F219FC2F200E281C9 /* Assets.xcassets */; };
 		DFF0F3A3219FC2F200E281C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF0F3A1219FC2F200E281C9 /* LaunchScreen.storyboard */; };
@@ -39,9 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DFDC070A219FFDDC0047ED3C /* TypeName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeName.swift; sourceTree = "<group>"; };
+		DFDC070E219FFF330047ED3C /* UICollectionView+RegisterNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+RegisterNib.swift"; sourceTree = "<group>"; };
+		DFDC071121A165E30047ED3C /* UICollectionViewRegisterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewRegisterable.swift; sourceTree = "<group>"; };
+		DFDC071321A1677C0047ED3C /* UITableViewCellRegisterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellRegisterable.swift; sourceTree = "<group>"; };
+		DFDC071521A1689B0047ED3C /* UITableView+RegisterNilb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+RegisterNilb.swift"; sourceTree = "<group>"; };
 		DFF0F395219FC2F000E281C9 /* UICollectionView-In-UITableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UICollectionView-In-UITableViewCell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF0F398219FC2F000E281C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DFF0F39A219FC2F000E281C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFF0F39A219FC2F000E281C9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DFF0F39D219FC2F000E281C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFF0F39F219FC2F200E281C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFF0F3A2219FC2F200E281C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -84,6 +94,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DFDC0708219FF7610047ED3C /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				DFDC070E219FFF330047ED3C /* UICollectionView+RegisterNib.swift */,
+				DFDC071521A1689B0047ED3C /* UITableView+RegisterNilb.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		DFDC0709219FFDC90047ED3C /* function */ = {
+			isa = PBXGroup;
+			children = (
+				DFDC070A219FFDDC0047ED3C /* TypeName.swift */,
+			);
+			path = function;
+			sourceTree = "<group>";
+		};
+		DFDC071021A165B20047ED3C /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				DFDC071121A165E30047ED3C /* UICollectionViewRegisterable.swift */,
+				DFDC071321A1677C0047ED3C /* UITableViewCellRegisterable.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
 		DFF0F38C219FC2F000E281C9 = {
 			isa = PBXGroup;
 			children = (
@@ -107,9 +143,12 @@
 		DFF0F397219FC2F000E281C9 /* UICollectionView-In-UITableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				DFDC071021A165B20047ED3C /* protocol */,
+				DFDC0709219FFDC90047ED3C /* function */,
+				DFDC0708219FF7610047ED3C /* extension */,
 				DFF0F3CA219FC36900E281C9 /* View */,
 				DFF0F398219FC2F000E281C9 /* AppDelegate.swift */,
-				DFF0F39A219FC2F000E281C9 /* ViewController.swift */,
+				DFF0F39A219FC2F000E281C9 /* HomeViewController.swift */,
 				DFF0F39C219FC2F000E281C9 /* Main.storyboard */,
 				DFF0F39F219FC2F200E281C9 /* Assets.xcassets */,
 				DFF0F3A1219FC2F200E281C9 /* LaunchScreen.storyboard */,
@@ -281,11 +320,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFF0F39B219FC2F000E281C9 /* ViewController.swift in Sources */,
+				DFDC070F219FFF330047ED3C /* UICollectionView+RegisterNib.swift in Sources */,
+				DFDC071621A1689B0047ED3C /* UITableView+RegisterNilb.swift in Sources */,
+				DFF0F39B219FC2F000E281C9 /* HomeViewController.swift in Sources */,
+				DFDC070B219FFDDC0047ED3C /* TypeName.swift in Sources */,
 				DFF0F3CF219FC98A00E281C9 /* AreaTableViewCell.swift in Sources */,
 				DFF0F3C8219FC35F00E281C9 /* ShopCell.swift in Sources */,
 				DFF0F399219FC2F000E281C9 /* AppDelegate.swift in Sources */,
+				DFDC071421A1677C0047ED3C /* UITableViewCellRegisterable.swift in Sources */,
 				DFF0F3CC219FC8A200E281C9 /* AreaCollectionView.swift in Sources */,
+				DFDC071221A165E30047ED3C /* UICollectionViewRegisterable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

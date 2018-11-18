@@ -13,7 +13,9 @@ class AreaTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
         // Initialization code
+        self.register(cell: ShopCell.self, to: self.shopCollectionView)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -22,4 +24,18 @@ class AreaTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+}
+extension AreaTableViewCell: UICollectionViewRegisterable { }
+extension AreaTableViewCell {
+    func setCollectionViewDataSource
+        <D: UICollectionViewDataSource>
+        (dataSourceDelegate: D, forRow row: Int) {
+        shopCollectionView.tag = row
+        shopCollectionView.dataSource = dataSourceDelegate
+        shopCollectionView.reloadData()
+    }
+    func setCollectionViewDelegate<D: UICollectionViewDelegate>
+        (delegate: D) {
+        shopCollectionView.delegate = delegate
+    }
 }
