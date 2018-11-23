@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF20AAEA21A85E3500F9D729 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF20AAE921A85E3500F9D729 /* Constants.swift */; };
 		DFDC070B219FFDDC0047ED3C /* TypeName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDC070A219FFDDC0047ED3C /* TypeName.swift */; };
 		DFDC070F219FFF330047ED3C /* UICollectionView+RegisterNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDC070E219FFF330047ED3C /* UICollectionView+RegisterNib.swift */; };
 		DFDC071221A165E30047ED3C /* UICollectionViewRegisterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDC071121A165E30047ED3C /* UICollectionViewRegisterable.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF20AAE921A85E3500F9D729 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DFDC070A219FFDDC0047ED3C /* TypeName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeName.swift; sourceTree = "<group>"; };
 		DFDC070E219FFF330047ED3C /* UICollectionView+RegisterNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+RegisterNib.swift"; sourceTree = "<group>"; };
 		DFDC071121A165E30047ED3C /* UICollectionViewRegisterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewRegisterable.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				DFF0F39F219FC2F200E281C9 /* Assets.xcassets */,
 				DFF0F3A1219FC2F200E281C9 /* LaunchScreen.storyboard */,
 				DFF0F3A4219FC2F200E281C9 /* Info.plist */,
+				DF20AAE921A85E3500F9D729 /* Constants.swift */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 				DFF0F39B219FC2F000E281C9 /* HomeViewController.swift in Sources */,
 				DFDC070B219FFDDC0047ED3C /* TypeName.swift in Sources */,
 				DFF0F3CF219FC98A00E281C9 /* AreaTableViewCell.swift in Sources */,
+				DF20AAEA21A85E3500F9D729 /* Constants.swift in Sources */,
 				DFF0F3C8219FC35F00E281C9 /* ShopCell.swift in Sources */,
 				DFF0F399219FC2F000E281C9 /* AppDelegate.swift in Sources */,
 				DFDC071421A1677C0047ED3C /* UITableViewCellRegisterable.swift in Sources */,
