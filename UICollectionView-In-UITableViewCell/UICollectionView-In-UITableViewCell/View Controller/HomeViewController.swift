@@ -47,7 +47,7 @@ extension HomeViewController: UITableViewDataSource {
         cell.setCollectionView(
             dataSource: self, forRow: indexPath.row
         )
-        cell.set(self.shopData?[indexPath.row].title)
+        cell.configure(data: self.shopData?[indexPath.row].title)
     }
     func tableView(
         _ tableView: UITableView,
@@ -57,6 +57,9 @@ extension HomeViewController: UITableViewDataSource {
                 withIdentifier: Name(of: AreaTableViewCell.self),
                 for: indexPath) as! AreaTableViewCell
         return cell
+    }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return Constants.AreaTableViewCell.height
     }
 }
 extension HomeViewController: UITableViewDelegate { }
@@ -78,8 +81,19 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
         
         let tag = collectionView.tag
         if let shop = self.shopData?[tag].shops[indexPath.item] {
-            cell.set(shop)
+            cell.configure(data: shop)
         }
         return cell
+    }
+}
+extension HomeViewController: UICollectionViewDelegateFlowLayout {
+    func collectionView(
+        _ collectionView: UICollectionView,
+        layout collectionViewLayout: UICollectionViewLayout,
+        sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(
+            width: Constants.ShopCell.width,
+            height: Constants.ShopCell.height
+        )
     }
 }

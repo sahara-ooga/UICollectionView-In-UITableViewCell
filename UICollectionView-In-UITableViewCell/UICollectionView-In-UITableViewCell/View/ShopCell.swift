@@ -18,12 +18,10 @@ class ShopCell: UICollectionViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-    
-    func set(_ shop: Shop?) {
-        // FIXME: cashe and offline state
-        guard let shop = shop else {
-            return
-        }
+}
+extension ShopCell: ConfigurableCell {
+    func configure(data: Shop) {
+        let shop = data
         self.shopLabel.text = shop.name
         guard let shopImageUrl = URL(string: shop.shopImageURL),
             let data = try? Data(contentsOf: shopImageUrl)

@@ -9,8 +9,12 @@ import UIKit
 
 enum Constants {
     enum AreaTableViewCell {
-        static let cellHeight: CGFloat = 250
-        static let labelHeight = cellHeight - collectionViewHeight
+        static let height: CGFloat = 250
+        static let labelHeight = height - collectionViewHeight
         static let collectionViewHeight: CGFloat = 230
+    }
+    enum ShopCell {
+        static let height: CGFloat = AreaTableViewCell.collectionViewHeight
+        static let width: CGFloat = 100
     }
 }
