@@ -139,6 +139,9 @@
 		DFEF2E1421A175C900E7B977 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				DFDC071021A165B20047ED3C /* protocol */,
+				DFDC0709219FFDC90047ED3C /* function */,
+				DFDC0708219FF7610047ED3C /* extension */,
 				DFEF2E1521A175EC00E7B977 /* JSONLoader.swift */,
 			);
 			path = Util;
@@ -190,9 +193,6 @@
 				DFEF2E1921A178B300E7B977 /* Resource */,
 				DFEF2E1421A175C900E7B977 /* Util */,
 				DFEF2E1321A1740100E7B977 /* View Controller */,
-				DFDC071021A165B20047ED3C /* protocol */,
-				DFDC0709219FFDC90047ED3C /* function */,
-				DFDC0708219FF7610047ED3C /* extension */,
 				DFF0F3CA219FC36900E281C9 /* View */,
 				DFF0F398219FC2F000E281C9 /* AppDelegate.swift */,
 			);
