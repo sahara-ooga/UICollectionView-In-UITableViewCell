@@ -33,8 +33,10 @@ extension HomeViewController {
 extension HomeViewController: UITableViewCellRegisterable { }
 
 extension HomeViewController: UITableViewDataSource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+    func tableView(
+        _ tableView: UITableView,
+        numberOfRowsInSection section: Int) -> Int {
+        return self.shopData?.numOfArea ?? 1
     }
     func tableView(
         _ tableView: UITableView,
@@ -60,7 +62,8 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
     func collectionView(
         _ collectionView: UICollectionView,
         numberOfItemsInSection section: Int) -> Int {
-        return 0
+        let tag = collectionView.tag
+        return self.shopData?[tag].shops.count ?? 0
     }
     func collectionView(
         _ collectionView: UICollectionView,

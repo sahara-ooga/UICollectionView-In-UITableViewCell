@@ -159,3 +159,6 @@ func newJSONEncoder() -> JSONEncoder {
     }
     return encoder
 }
+extension Array where Element == Shops {
+    var numOfArea: Int { return self.count }
+}
