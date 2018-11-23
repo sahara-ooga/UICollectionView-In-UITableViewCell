@@ -58,6 +58,9 @@ extension HomeViewController: UITableViewDataSource {
                 for: indexPath) as! AreaTableViewCell
         return cell
     }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return Constants.AreaTableViewCell.height
+    }
 }
 extension HomeViewController: UITableViewDelegate { }
 
