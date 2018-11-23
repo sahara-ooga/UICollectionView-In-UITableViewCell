@@ -9,13 +9,14 @@
 import UIKit
 
 class AreaTableViewCell: UITableViewCell {
-    @IBOutlet weak var shopCollectionView: UICollectionView!
+    @IBOutlet weak var areaNameLabel: UILabel!
+    @IBOutlet weak var areaCollectionView: AreaCollectionView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         
         // Initialization code
-        self.register(cell: ShopCell.self, to: self.shopCollectionView)
+        self.register(cell: ShopCell.self, to: self.areaCollectionView)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -23,7 +24,6 @@ class AreaTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
 }
 extension AreaTableViewCell: UICollectionViewRegisterable { }
 extension AreaTableViewCell {
