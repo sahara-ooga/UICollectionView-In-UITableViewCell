@@ -27,16 +27,18 @@ class AreaTableViewCell: UITableViewCell {
 }
 extension AreaTableViewCell: UICollectionViewRegisterable { }
 extension AreaTableViewCell {
-    func setCollectionViewDataSource
+    func setCollectionView
         <D: UICollectionViewDataSource>
-        (dataSourceDelegate: D, forRow row: Int) {
-        shopCollectionView.tag = row
-        shopCollectionView.dataSource = dataSourceDelegate
-        shopCollectionView.reloadData()
+        (dataSource: D, forRow row: Int) {
+        areaCollectionView.tag = row
+        areaCollectionView.dataSource = dataSource
+        areaCollectionView.reloadData()
     }
-    func setCollectionViewDelegate<D: UICollectionViewDelegate>
+    func setCollectionView<D: UICollectionViewDelegate>
         (delegate: D) {
-        shopCollectionView.delegate = delegate
+        areaCollectionView.delegate = delegate
+    }
+}
 extension AreaTableViewCell: ConfigurableCell {
     func configure(data: String?) {
         self.areaNameLabel.text = data
