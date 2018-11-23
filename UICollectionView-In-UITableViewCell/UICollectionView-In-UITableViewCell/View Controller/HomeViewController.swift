@@ -78,7 +78,7 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
         
         let tag = collectionView.tag
         if let shop = self.shopData?[tag].shops[indexPath.item] {
-            cell.set(shop)
+            cell.configure(data: shop)
         }
         return cell
     }
