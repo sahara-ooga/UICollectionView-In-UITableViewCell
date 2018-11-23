@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DF20AAEA21A85E3500F9D729 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF20AAE921A85E3500F9D729 /* Constants.swift */; };
+		DF20AAEC21A8660A00F9D729 /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF20AAEB21A8660A00F9D729 /* ConfigurableCell.swift */; };
 		DFDC070B219FFDDC0047ED3C /* TypeName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDC070A219FFDDC0047ED3C /* TypeName.swift */; };
 		DFDC070F219FFF330047ED3C /* UICollectionView+RegisterNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDC070E219FFF330047ED3C /* UICollectionView+RegisterNib.swift */; };
 		DFDC071221A165E30047ED3C /* UICollectionViewRegisterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDC071121A165E30047ED3C /* UICollectionViewRegisterable.swift */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		DF20AAE921A85E3500F9D729 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DF20AAEB21A8660A00F9D729 /* ConfigurableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
 		DFDC070A219FFDDC0047ED3C /* TypeName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeName.swift; sourceTree = "<group>"; };
 		DFDC070E219FFF330047ED3C /* UICollectionView+RegisterNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+RegisterNib.swift"; sourceTree = "<group>"; };
 		DFDC071121A165E30047ED3C /* UICollectionViewRegisterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewRegisterable.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				DFEF2E1521A175EC00E7B977 /* JSONLoader.swift */,
 				DFDC071121A165E30047ED3C /* UICollectionViewRegisterable.swift */,
 				DFDC071321A1677C0047ED3C /* UITableViewCellRegisterable.swift */,
+				DF20AAEB21A8660A00F9D729 /* ConfigurableCell.swift */,
 			);
 			path = protocol;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				DF20AAEA21A85E3500F9D729 /* Constants.swift in Sources */,
 				DFF0F3C8219FC35F00E281C9 /* ShopCell.swift in Sources */,
 				DFF0F399219FC2F000E281C9 /* AppDelegate.swift in Sources */,
+				DF20AAEC21A8660A00F9D729 /* ConfigurableCell.swift in Sources */,
 				DFDC071421A1677C0047ED3C /* UITableViewCellRegisterable.swift in Sources */,
 				DFF0F3CC219FC8A200E281C9 /* AreaCollectionView.swift in Sources */,
 				DFDC071221A165E30047ED3C /* UICollectionViewRegisterable.swift in Sources */,

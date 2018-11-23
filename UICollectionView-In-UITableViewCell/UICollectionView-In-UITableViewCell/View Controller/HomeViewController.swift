@@ -47,7 +47,7 @@ extension HomeViewController: UITableViewDataSource {
         cell.setCollectionView(
             dataSource: self, forRow: indexPath.row
         )
-        cell.set(self.shopData?[indexPath.row].title)
+        cell.configure(data: self.shopData?[indexPath.row].title)
     }
     func tableView(
         _ tableView: UITableView,

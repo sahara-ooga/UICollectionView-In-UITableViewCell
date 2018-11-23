@@ -37,5 +37,8 @@ extension AreaTableViewCell {
     func setCollectionViewDelegate<D: UICollectionViewDelegate>
         (delegate: D) {
         shopCollectionView.delegate = delegate
+extension AreaTableViewCell: ConfigurableCell {
+    func configure(data: String?) {
+        self.areaNameLabel.text = data
     }
 }
