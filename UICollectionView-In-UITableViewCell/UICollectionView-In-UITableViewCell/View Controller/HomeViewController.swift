@@ -43,15 +43,18 @@ extension HomeViewController: UITableViewDataSource {
         willDisplay cell: UITableViewCell,
         forRowAt indexPath: IndexPath) {
         guard let cell = cell as? AreaTableViewCell else { return }
-        cell.setCollectionViewDelegate(delegate: self)
-        cell.setCollectionViewDataSource(dataSourceDelegate: self, forRow: indexPath.row)
+        cell.setCollectionView(delegate: self)
+        cell.setCollectionView(
+            dataSource: self, forRow: indexPath.row
+        )
+        cell.set(self.shopData?[indexPath.row].title)
     }
     func tableView(
         _ tableView: UITableView,
         cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView
             .dequeueReusableCell(
-                withIdentifier: "AreaTableViewCell",
+                withIdentifier: Name(of: AreaTableViewCell.self),
                 for: indexPath) as! AreaTableViewCell
         return cell
     }
