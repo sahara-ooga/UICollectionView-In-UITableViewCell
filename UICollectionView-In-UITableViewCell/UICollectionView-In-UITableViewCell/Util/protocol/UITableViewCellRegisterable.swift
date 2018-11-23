@@ -15,7 +15,7 @@ extension UITableViewCellRegisterable {
     ///
     /// - Parameters:
     ///   - cell: registeree UITableViewCell. xib file using same name.
-    ///   - tableView: registers UICollectionViewCell
+    ///   - tableView: registers UITableViewCell
     func register<T: UITableViewCell, U: UITableView>
         (cell: T.Type, to tableView: U) {
         let identifier = Name(of: cell)
