@@ -122,6 +122,7 @@
 		DFDC071021A165B20047ED3C /* protocol */ = {
 			isa = PBXGroup;
 			children = (
+				DFEF2E1521A175EC00E7B977 /* JSONLoader.swift */,
 				DFDC071121A165E30047ED3C /* UICollectionViewRegisterable.swift */,
 				DFDC071321A1677C0047ED3C /* UITableViewCellRegisterable.swift */,
 			);
@@ -142,7 +143,6 @@
 				DFDC071021A165B20047ED3C /* protocol */,
 				DFDC0709219FFDC90047ED3C /* function */,
 				DFDC0708219FF7610047ED3C /* extension */,
-				DFEF2E1521A175EC00E7B977 /* JSONLoader.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
