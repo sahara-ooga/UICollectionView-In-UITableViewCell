@@ -67,7 +67,7 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
         cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView
             .dequeueReusableCell(
-                withReuseIdentifier: "ShopCell",
+                withReuseIdentifier: Name(of: ShopCell.self),
                 for: indexPath) as! ShopCell
         
         let tag = collectionView.tag
